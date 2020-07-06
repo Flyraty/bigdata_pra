@@ -15,8 +15,7 @@
 MR shuffle 阶段一定会排序，map 阶段分区局部有序，reduce阶段归并全局有序
 
 ### 使用方法
-- 打包，使用 spring-boot-maven-plugin 插件指定 main_class 直接打包 exec 可执行jar，运行 jar 包不用额外指定 main class
-
+- 打包
 ```sh
 mvn clean package
 ```
